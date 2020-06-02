@@ -1,0 +1,85 @@
+.landing-pictures {
+  padding: 5% 0 2.5%;
+  width: 100%;
+}
+@media (max-width: 450px) {
+  .landing-pictures {
+    padding-top: 15%;
+    height: 75vh;
+  }
+}
+.tuggle-picture {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2.5%;
+}
+.tuggle-about {
+  width: 100%;
+  color: red;
+  font-size: 2.4rem;
+  text-align: right;
+  position: absolute;
+  font-weight: bold;
+  padding-top: 23%;
+  left: 0;
+  right: 0;
+}
+.body-header {
+  text-align: center;
+}
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-image {
+  height: 100%;
+  width: 100%;
+}
+.card-container {
+  position: relative;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+}
+
+.card-container:hover .card-overlay {
+  opacity: 0.75;
+}
+.card-description {
+  color: white;
+  font-size: 1.6rem;
+  position: absolute;
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* text-align: center; */
+}
+.card-description a {
+  /* padding-right: %; */
+}
+@media (max-width: 450px) {
+  .player-row {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .hello {
+    /* border: 3px solid red; */
+    padding-bottom: 3%;
+  }
+}
